@@ -1,0 +1,351 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 34, ../sass/screen.scss */
+body {
+  background-color: #113470;
+  margin: 5% 5% 5% 5%;
+  color: white;
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 3px 1px 10px rgba(0, 0, 0, 0.55);
+}
+
+/* line 42, ../sass/screen.scss */
+a {
+  color: white;
+}
+
+/* line 43, ../sass/screen.scss */
+.onepage-pagination-stay {
+  color: white;
+}
+/* line 46, ../sass/screen.scss */
+.onepage-pagination-stay li a {
+  color: white;
+}
+/* line 47, ../sass/screen.scss */
+.onepage-pagination-stay li a:active {
+  color: white;
+}
+/* line 48, ../sass/screen.scss */
+.onepage-pagination-stay li a:before {
+  color: white;
+  background: white;
+}
+
+/* line 54, ../sass/screen.scss */
+h2 {
+  font-size: 70px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/* line 62, ../sass/screen.scss */
+.glyphicon {
+  color: #e13935;
+}
+
+/* line 65, ../sass/screen.scss */
+.btn {
+  background-color: #e13935;
+  border-radius: 0px;
+  min-width: 100px;
+  font-size: 24px;
+  max-width: 45%;
+  margin-left: 35%;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+/* line 74, ../sass/screen.scss */
+.btn-custom {
+  background-color: #f00000 !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ef0000", endColorstr="#ef0000");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ef0000), to(#ef0000));
+  background-image: -moz-linear-gradient(top, #ef0000, #ef0000);
+  background-image: -ms-linear-gradient(top, #ef0000, #ef0000);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ef0000), color-stop(100%, #ef0000));
+  background-image: -webkit-linear-gradient(top, #ef0000, #ef0000);
+  background-image: -o-linear-gradient(top, #ef0000, #ef0000);
+  background-image: linear-gradient(#ef0000, #ef0000);
+  border-color: #ef0000 #ef0000 #f00000;
+  color: #fff !important;
+  text-shadow: 0 -1px 0 transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 94, ../sass/screen.scss */
+.center-flexbox {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+/* line 97, ../sass/screen.scss */
+.bottom-page {
+  margin-top: 20%;
+}
+
+/* line 98, ../sass/screen.scss */
+.float-left {
+  float: left;
+}
+
+/* line 99, ../sass/screen.scss */
+.float-right {
+  float: right;
+}
+
+/* line 101, ../sass/screen.scss */
+.centered {
+  text-align: center;
+}
+
+/* line 103, ../sass/screen.scss */
+#uconn-logo {
+  width: 200px;
+}
+
+/* line 107, ../sass/screen.scss */
+.italic-font {
+  font-style: italic;
+}
+
+/* line 108, ../sass/screen.scss */
+.text-bold {
+  font-weight: bold;
+}
+
+/* line 109, ../sass/screen.scss */
+.red {
+  color: #e13935;
+}
+
+/* line 110, ../sass/screen.scss */
+.content {
+  width: 70%;
+  font-size: 14px;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  line-height: 180%;
+  letter-spacing: 1px;
+}
+
+/* line 120, ../sass/screen.scss */
+.large-content-text {
+  font-size: 16px;
+}
+
+/* line 121, ../sass/screen.scss */
+.subheader {
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/* line 130, ../sass/screen.scss */
+.viewing-page-1 {
+  background: url("http://www.dtelepathy.com/img/philosophy/bg-create-impact-17fe50e9.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*ul{display:none;}*/
+}
+
+/* line 143, ../sass/screen.scss */
+.pageone .glyphicon {
+  position: relative;
+  bottom: 100px;
+}
+/* line 145, ../sass/screen.scss */
+.pageone #page-one-content {
+  width: 50%;
+  margin-top: 35px;
+  position: relative;
+  margin-left: 25%;
+}
+/* line 152, ../sass/screen.scss */
+.pageone .tagline {
+  margin-top: 5%;
+}
+/* line 154, ../sass/screen.scss */
+.pageone .uconn-logo {
+  width: 10%;
+  margin-right: 60%;
+  float: left;
+}
+/* line 158, ../sass/screen.scss */
+.pageone .innovation-credentials {
+  width: 20%;
+  margin-left: 60%;
+  float: right;
+}
+
+/* line 163, ../sass/screen.scss */
+.viewing-page-2 {
+  background: url("https://pbs.twimg.com/media/B11s0WlIYAAZ2M7.jpg:large") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 172, ../sass/screen.scss */
+.pagetwo h2 {
+  margin-top: 20%;
+}
+
+/* line 178, ../sass/screen.scss */
+.viewing-page-3 {
+  background: url("http://previews.123rf.com/images/plus69/plus691303/plus69130300019/18467553-back-side-of-the-motherboard-close-to-the-background-blue-tone-light-effect.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 189, ../sass/screen.scss */
+.viewing-page-4 {
+  background: url("  http://today.uconn.edu/wp-content/uploads/2014/10/Music140821b058-final-large-e1419368122193.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 195, ../sass/screen.scss */
+.viewing-page-5 {
+  background: url("http://www.todayifoundout.com/wp-content/uploads/2013/09/ECG.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 202, ../sass/screen.scss */
+.viewing-page-6 {
+  background: url("http://d1hw6n3yxknhky.cloudfront.net/011057121_prevstill.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 209, ../sass/screen.scss */
+.viewing-page-7 {
+  background: url("http://www.dtelepathy.com/img/philosophy/bg-create-impact-17fe50e9.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 218, ../sass/screen.scss */
+.pageseven .tagline {
+  margin-left: 17%;
+  margin-top: 10%;
+}
+/* line 220, ../sass/screen.scss */
+.pageseven .boxes {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: auto;
+  padding-top: 100px;
+  float: left;
+  display: inline-flex;
+  justify-content: space-between;
+}
+/* line 228, ../sass/screen.scss */
+.pageseven .box {
+  min-width: 300px;
+  min-height: 100px;
+  border: white solid 1px;
+  height: auto;
+  width: 3%;
+  float: left;
+}
+/* line 235, ../sass/screen.scss */
+.pageseven .box p {
+  padding: 25px 25px 25px 25px;
+  float: left;
+}
+/* line 237, ../sass/screen.scss */
+.pageseven .box .number {
+  width: 100%;
+  float: left;
+  font-size: 45px;
+  padding-bottom: 30px;
+}
